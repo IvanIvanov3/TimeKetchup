@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimerView">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="accentColor" format="color"/>
+        <attr name="elementColor" format="color"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="CounterView">
+        <attr name="backgroundColor1" format="color"/>
+        <attr name="lightColor1" format="color"/>
+        <attr name="darkColor1" format="color"/>
+        <attr name="textColor1" format="color"/>
+        <attr name="textSize1" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="NumberPickerPreference">
+        <attr name="maxValue" format="integer"/>
+        <attr name="minValue" format="integer"/>
+        <attr name="defaultValue" format="integer"/>
+    </declare-styleable>
+</resources>
